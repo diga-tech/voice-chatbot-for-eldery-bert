@@ -1,0 +1,14 @@
+dateparser==1.2.0
+google_api_python_client==2.149.0
+google_auth_oauthlib==1.2.1
+gTTS==2.5.3
+mutagen==1.47.0
+openpyxl==3.1.5
+pandas==2.2.3
+protobuf==5.28.3
+pytz==2024.2
+Requests==2.32.3
+scikit_learn==1.5.2
+SpeechRecognition==3.11.0
+tensorflow==2.18.0
+transformers==4.46.0

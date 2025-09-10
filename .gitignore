@@ -1,0 +1,5 @@
+__pycache__/
+credentials.json
+res.mp3
+token.json
+model/

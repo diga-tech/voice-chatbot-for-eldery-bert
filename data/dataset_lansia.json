@@ -1,0 +1,501 @@
+{
+  "data": [
+    {
+      "label": "halo",
+      "questions": ["Halo robot?", "Halo ha ?", "Halo ?", "Hi?", "Hey?", "Hola ?", "haiiii", "heeeyy", "punten", "permisi"],
+      "answers": ["Hello, bisa saya bantu?", "Hai ada apa ya?", "hai membutuhkan saya?", "Halo", "hai", "iya", "kenapa", "ada yang bisa saya bantu?"]
+    },
+    {
+      "label": "kondisi",
+      "questions": [
+        "Halo bagiamana kabarmu robot?",
+        "Kabar?",
+        "Sehat ?",
+        "Sekarang kabarnya gimana",
+        "Kondisi mu gimana",
+        "Bagaimana Kabar anda sekarang ?",
+        "bagaimana kondisi anda saat ini",
+        "Apakah kamu baik-baik saja",
+        "Kondisi saat ini bagaimana?",
+        "Berikan kondisi dan kabarmu sekarang?"
+      ],
+      "answers": ["Halo, kabar saya baik-baik saja", "Kabar baik, bagaimana kabar anda?", "Hari ini saya baik-baik saja", "Sekarang saya dalam kondisi baik", "Saat ini saya berada dalam kondisi baik dan siap membantu"]
+    },
+    {
+      "label": "pagi",
+      "questions": ["selamat pagi robot?", "Pagi robot ?", "Pagi", "Selamat pagi", "Mat pagi", "Met pagi"],
+      "answers": ["Selamat pagi, ada yang bisa saya bantu?", "Hai selamat pagi?", "Halo selamat pagi, membutuhkan saya?", "Selamat pagi kembali", "Bagaimana Pagi ini", "Selamat Pagi"]
+    },
+    {
+      "label": "siang",
+      "questions": ["selamat siang robot?", "Siang robot ?", "Siang", "Selamat Siang", "Mat Siang", "Met siang"],
+      "answers": ["Selamat siang, ada yang bisa saya bantu?", "Hai selamat siang?", "Halo selamat siang, membutuhkan saya?", "Selamat siang kembali", "Bagaimana siang ini", "Selamat siang"]
+    },
+    {
+      "label": "sore",
+      "questions": ["selamat sore robot?", "Sore robot ?", "Sore", "Selamat sore", "Mat sore", "Met sore"],
+      "answers": ["Selamat sore, ada yang bisa saya bantu?", "Hai selamat sore?", "Halo selamat sore, membutuhkan saya?", "Selamat sore kembali", "Bagaimana sore ini", "Selamat sore"]
+    },
+    {
+      "label": "malam",
+      "questions": ["selamat malam robot?", "Malam robot ?", "Malam", "Selamat malam", "Mat malam", "Met malam"],
+      "answers": ["Selamat malam, ada yang bisa saya bantu?", "Hai selamat malam?", "Halo selamat malam, membutuhkan saya?", "Selamat malam kembali", "Bagaimana malam ini", "Selamat malam"]
+    },
+    {
+      "label": "jam",
+      "questions": ["Jam berapa sekarang ?", "Jam berapa ?", "Jam", "sekarang jam berapa?", "jam berapa?", "saat ini jam berapa?", "hari ini jam berapa"],
+      "answers": ["Sekarang jam", "Hai saat ini pukul", "saat ini jam menunjukan pukul ", "Hai saat ini jam ", "Sekarang pukul ", "Jam "]
+    },
+    {
+      "label": "perpisahan",
+      "questions": ["Selamat jalan", "Dadah", "Good bye", "sampai bertemu lagi", "see ya", "Sampai jumpa dilain waktu"],
+      "answers": ["Selamat jalan", "Dadah", "Semoga kita dapat bertemu kembali ", "Sampai jumpa dilain waktu ", "Sampai bertemu kembali", "Baik Terima kasih telah bersama dengan saya"]
+    },
+    {
+      "label": "terimakasih",
+      "questions": ["Terima kasih", "makasih", "nuhun", "thank you", "kasih", "Terima", "Baik, Terima kasih Banyak", "terima kasih banyak"],
+      "answers": ["Terima kasih kembali", "Sama-sama", "Semoga dapat membantu ", "Baik "]
+    },
+    {
+      "label": "pertanyaan",
+      "questions": [
+        "saya ingin bertanya?",
+        "boleh saya bertanya?",
+        "pertanyaan apa yang boleh saya tanyakan mengenai robot?",
+        "saya ingin tanya ? ",
+        "saya ingin tanya-tanya boleh?",
+        "saya ingin bertanya",
+        "tanya",
+        "bertanya",
+        "nanya",
+        "aku ingin bertanya",
+        "aku mau bertanya",
+        "aku mau nanya",
+        "aku tanya kepada kamu"
+      ],
+      "answers": ["Ada yang bisa saya bantu?", "Baik, Ada yang bisa saya bantu?", "Ada yang ingin ditanyakan? ", "Silakan, Ada yang ingin ditanyakan? "]
+    },
+    {
+      "label": "Identittas",
+      "questions": ["Berikan identitasmu", "apakah kamu memiliki identitas", "bolehkan perkenalan diri", "perkenalkan diri", "Boleh sebutkan identitas anda?", "siapa kamu?", "kamu siapa?", "siapa", "identitas", "perkenalan", "anda siapa?"],
+      "answers": ["Saya adalah human following robot ", "Saya merupakan robot yang sedang dikembangkan oleh Teknik Elektro Unpad", "Saya adalah robot yang dapat membantu lansia "]
+    },
+    {
+      "label": "tanggal",
+      "questions": ["Tanggal berapa sekarang ?", "Tanggal berapa ?", "Tanggal", "Hari ini tanggal berapa sekarang ?", "Sekarang tanggal?", "saat ini Tanggal berapa?"],
+      "answers": ["Sekarang Tanggal", "Hai saat ini tanggal", "Hari ini menunjukan tanggal ", "Hai saat ini Tanggal ", "Sekarang Tanggal ", "Tanggal "]
+    },
+    {
+      "label": "hari",
+      "questions": ["hari apa sekarang ?", "hari apa ?", "hari", "sekarang hari apa ?", "Sekarang hari?", "saat ini hari apa?"],
+      "answers": ["Sekarang hari", "Hai saat ini hari", "Pada saat ini hari ", "Hari "]
+    },
+    {
+      "label": "bulan",
+      "questions": ["bulan apa sekarang ?", "bulan apa ?", "bulan", "sekarang bulan apa ?", "Sekarang bulan?", "saat ini bulan apa?"],
+      "answers": ["Sekarang bulan", "Hai saat ini bulan", "Pada saat ini bulan ", "bulan "]
+    },
+    {
+      "label": "daftarkegiatan",
+      "questions": [
+        "Apa saja jadwal saya hari ini?",
+        "Apakah hari ini ada agenda?",
+        "Berikan jadwal hari ini",
+        "Ingatkan saya mengenai jadwal kegiatan ",
+        "Ada kegiatan apa hari ini?",
+        "ada kegiatan?",
+        "kegiatan",
+        "jadwal",
+        "list kegiatan",
+        "agenda",
+        "berikan agenda terdekat",
+        "berikan jadwal terdekat",
+        "kegiatan hari ini",
+        "agenda hari ini"
+      ],
+      "answers": ["Kamu memiliki jadwal hari ini", "terdapat beberapa jadwal", "Terdapat list kegiatan hari ini", "Kegiatan hari ini"]
+    },
+    {
+      "label": "Makan",
+      "questions": ["kapan saya harus makan saya hari ini?", "Apakah hari ini ada makanan ?", "Berikan waktu kapan saya makan", "Ingatkan saya mengenai makan", "ada makan?", "makan", "makanan"],
+      "answers": ["Anda memiliki jadwal makan hari ini, jangan lupa untuk makan ya", "Terdapat beberapa jadwal makan hari ini, Makan pagi pukul 9 pagi, makan siang pukul 1 siang, makan malam pukul 7 malam"]
+    },
+    {
+      "label": "ibadah",
+      "questions": [
+        "Apa saja waktu ibadah saya hari ini?",
+        "Apakah saat ini waktu ibadah ?",
+        "Berikan list waktu ibadah",
+        "Ingatkan saya mengenai waktu ibadah",
+        "ada waktu ibadah?",
+        "berikan waktu shalat hari ini",
+        "Kapan waktu sholat",
+        "ibadah",
+        "shalat",
+        "solat",
+        "sholat"
+      ],
+      "answers": ["Anda memiliki jadwal ibadah hari ini, jangan lupa untuk ibadah ya", "Terdapat jadwal ibadah hari ini, shalat subuh, shalat Dzuhur, shalat Ashar, shalat magrib, dan shalat Isya"]
+    },
+    {
+      "label": "hiburan",
+      "questions": [
+        "Apa saja hiburan untuk saya",
+        "Apakah ada hiburan ?",
+        "Berikan hiburan untuk saya",
+        "Berikan ide untuk hiburan ",
+        "Ada hiburan apa hari ini?",
+        "ada hiburan?",
+        "hiburan",
+        "terhibut",
+        "aku ingin terhibur",
+        "saya ingin hiburan",
+        "apa ada hiburan",
+        "berikan saya hiburan agar terhibur"
+      ],
+      "answers": ["Terdapat list hiburan untuk dapat mengisi waktu luang, seperti menonton tv, membaca, mendengarkan musik, dan lainnya", "terdapat beberapa hiburan"]
+    },
+    {
+      "label": "membuatkegiatan",
+      "questions": [
+        "buatkan jadwal saya hari ini",
+        "Buatkan jadwal",
+        "Tolong buatkan agenda",
+        "buatkan jadwal kegiatan ",
+        "Buatkan agenda",
+        "buatkan kegiatan",
+        "membuat kegiatan",
+        "buat",
+        "membuat",
+        "bikinkan saya kegiatan",
+        "bikin",
+        "bikin saya agenda",
+        "bikinkan saya jadwal kegiatan"
+      ],
+      "answers": ["Baik akan saya buatkan jadwal kegiatan", "Baik akan saya buatkan agenda"]
+    },
+    {
+      "label": "obat",
+      "questions": ["Ingatkan saya minum obat", "minum obat?", "waktu minum obat?", "Hari ini minum obat Apa?", "Adakah Obat yang harus saya minum?"],
+      "answers": ["Terdapat Obat yang harus di konsumsi", "Obat harus dikonsumsi hari ini", "Jangan Lupa konsumsi obat hari ini"]
+    },
+    {
+      "label": "dokter",
+      "questions": ["Ingatkan saya untuk berkunjung ke dokter", "dokter", "jadwal check up ke dokter", "Hari ini ada agenda ke dokter?", "Adakah jadwal ke dokter?"],
+      "answers": ["Terdapat jadwal check up ke Dokter", "Jangan lupa untuk check up ke dokter"]
+    },
+    {
+      "label": "kesehatan",
+      "questions": [
+        "Ingatkan saya untuk cek kesehatan",
+        "cek kesehatan",
+        "jadwal cek kesehatan",
+        "Hari ini ada agenda cek kesehatan?",
+        "Adakah jadwal cek kesehatan?",
+        "periksa kesehatan",
+        "kapan jadwal tes kesehatan",
+        "tes kesehatan",
+        "tes kesehatan hari ini",
+        "jadwal tes kesehatan hari ini",
+        "tes kesehatan",
+        "periksa kesehatan hari ini",
+        "waktu tes kesehatan",
+        "kapan tes kesehatan",
+        "kapan periksa kesehatan",
+        "kapan waktu untuk periksa kesehatan"
+      ],
+      "answers": ["Terdapat jadwal periksa kesehatan", "Jangan lupa untuk periksa kesehatan secara berkala"]
+    },
+    {
+      "label": "olahraga",
+      "questions": ["Ingatkan saya untuk olahraga", "olah raga", "jadwal olahraga", "Berikan cara olahraga sederhana", "Bagaimana olahraga", "berolahraga", "olahragar", "kapan olahraga"],
+      "answers": ["Halo jangan lupa untuk selalu melakukan olahraga", "Olahraga dapat membantu menjadi kesehatan"]
+    },
+    {
+      "label": "berhenti",
+      "questions": [
+        "robot tolong berhenti",
+        "berhenti",
+        "stop",
+        "berhenti merekam",
+        "stop merekam",
+        "jangan merekam",
+        "saya ingin privasi",
+        "jangan",
+        "berhenti",
+        "diam",
+        "robot diam",
+        "robot jangan bergerak",
+        "robot berhenti sekarang",
+        "diam sekarang",
+        "diam disitu",
+        "berhenti disitu",
+        "diam disana",
+        "berhenti disana",
+        "robot tolong diam"
+      ],
+      "answers": ["Baik saya akan berhenti", "Baik saya akan menjaga privasi dengan tidak mengikuti maupun merekam"]
+    },
+    {
+      "label": "mulai",
+      "questions": [
+        "robot tolong berjalan",
+        "start",
+        "jalan",
+        "mulai merekam",
+        "start merekam",
+        "robot jalankan rekaman",
+        "saya ingin diawasi",
+        "robot mulai",
+        "mulai",
+        "memulai untuk merekam",
+        "ikuti saya",
+        "robot mulai merekam",
+        "mulai awasi saya",
+        "memulai"
+      ],
+      "answers": ["Baik saya akan berjalan", "Baik saya akan mulai berjalan dengan mengikuti dan merekam"]
+    },
+    {
+      "label": "Carakerja",
+      "questions": [
+        "bagaimana cara kerja ",
+        "cara kerja",
+        "boleh jelaskan cara kerja anda",
+        "berikan cara kerja ",
+        "jelaskan cara kerja",
+        "Bagaimana anda berjalan",
+        "bagaimana ada bekerja",
+        "bagaimana cara anda bekerja",
+        "jelaskan kenapa anda dapat bekerja",
+        "bagaimana kerja anda",
+        "kerja",
+        "bekerja"
+      ],
+      "answers": [
+        "Saya adalah human following robot yang dikembangkan oleh Teknik Elektro Unpad saya bekerja dengan perangkan seperti raspberry Pi, motor driver, servo, kamera. saya menggunakan arsitektur BERT model dalam melakukan percakapan dan menggunakan model CNN serta mediapipe untuk mendeteksi dan mengawasi lansia"
+      ]
+    },
+    {
+      "label": "fitur",
+      "questions": [
+        "ada apa saya fitur robot",
+        "fitur",
+        "jelaskan fitur anda",
+        "berikan fitur-fitur yang ada",
+        "jelaskan fitur yang digunakan",
+        "Bagaimana fitur-fitur dapat digunakan",
+        "fitur-fitur",
+        "fitur apa saja",
+        "berikan fitur",
+        "ada fitur apa",
+        "berikan fitur yang dapat digunakan"
+      ],
+      "answers": ["Saya adalah human following robot yang dikembangkan oleh Teknik Elektro Unpad, saya memiliki fitur seperti dapat mengawasi lansia, mengikuti lansia, mendeteksi jatuh pada lansia, serta dapat berkomunikasi dengan lansia"]
+    },
+    {
+      "label": "pengembangan",
+      "questions": [
+        "ada pengembangan kedepan",
+        "pengembangan",
+        "jelaskan pengembangan yang akan dilakukan",
+        "berikan hal-hal yang ingin dikembangkan kedepan",
+        "jelaskan hal yang ingin dikembangkan",
+        "pengembangan",
+        "ada pembaharuan kedepan",
+        "pembaharuan",
+        "jelaskan pembaharuan yang akan dilakukan",
+        "berikan hal-hal yang ingin diperbaharui kedepan",
+        "jelaskan pembaruan kedepan",
+        "pembaruan"
+      ],
+      "answers": ["Saya adalah human following robot yang dikembangkan oleh Teknik Elektro Unpad, saya akan dikembangkan menjadi robot asisten untuk lansia, saat ini saya masih dalam tahap prototipe "]
+    },
+    {
+      "label": "subuh",
+      "questions": ["subuh", "shalat subuh", "waktu shalat subuh", "subuh", "kapan shalat subuh"],
+      "answers": ["Waktu sholat subuh terdekat"]
+    },
+    {
+      "label": "dzuhur",
+      "questions": ["dzuhur", "shalat dzuhur", "waktu shalat dzuhur", "kapan shalat dzuhur", "dzuhur", "zuhur", "shalat zuhur", "waktu shalat zuhur", "zuhur", "kapan shalat zuhur"],
+      "answers": ["Waktu sholat dzuhur terdekat"]
+    },
+    {
+      "label": "ashar",
+      "questions": ["ashar", "shalat ashar", "waktu shalat ashar", "kapan shalat ashar", "ashar", "asar", "shalat asar", "waktu shalat asar", "kapan shalat asar"],
+      "answers": ["Waktu sholat ashar terdekat"]
+    },
+    {
+      "label": "magrib",
+      "questions": ["magrib", "shalat magrib", "waktu shalat magrib", "kapan shalat magrib", "magrib", "maghrib", "shalat maghrib", "waktu shalat maghrib", "kapan shalat maghrib"],
+      "answers": ["Waktu sholat magrib terdekat"]
+    },
+    {
+      "label": "isya",
+      "questions": ["isya", "shalat isya", "waktu shalat isya", "kapan shalat isya", "isya"],
+      "answers": ["Waktu sholat isya terdekat"]
+    },
+    {
+      "label": "minum",
+      "questions": ["Apakah saya sudah cukup minum air hari ini?", "minum air", "berapa kali minum air yang baik dalam sehari", "apakah penting minum air", "minum", "hari ini saya mau minum air", "hari ini saya minum", "saya mau minum"],
+      "answers": ["Minum air yang cukup itu penting. Usahakan minum setidaknya 6-8 gelas air setiap hari untuk menjaga hidrasi tubuh."]
+    },
+    {
+      "label": "tekanandarah",
+      "questions": [
+        "Apakah tekanan darah saya normal?",
+        "tekanan darah",
+        "darah",
+        "tekanan darah yang ideal",
+        "berapa tekanan darah",
+        "berapa tekanan darah yang ideal untuk manusia",
+        "tekanan darah yang ideal",
+        "tekanan darah yang bagus",
+        "tekanan darah yang baik"
+      ],
+      "answers": ["Penting untuk memeriksa tekanan darah secara rutin. Tekanan darah ideal biasanya berkisar sekitar 120/80 mmHg, tetapi cek juga dengan dokter untuk kepastian."]
+    },
+    {
+      "label": "mental",
+      "questions": ["Bagaimana menjaga kesehatan mental saya?", "kenapa kesehatan mental penting", "kesehatan mental", "mental", "apa itu kesehatan mental", "bagaimana memiliki kesehatan mental yang baik", "kesehatan mental untuk lansia"],
+      "answers": ["Luangkan waktu untuk bersantai, mengobrol dengan keluarga atau teman, dan tetap aktif secara sosial. Ini bisa membantu menjaga kesehatan mental Anda."]
+    },
+    {
+      "label": "pusing",
+      "questions": ["Saya merasa pusing setelah minum obat", "saya pusing", "pusing", "saya merasa pusing", "kenapa saya pusing", "apakah pusing itu wajar", "sekarang saya pusing", "kepala saya pusing"],
+      "answers": ["Pusing bisa menjadi efek samping obat tertentu. Jika ini sering terjadi, segera konsultasikan dengan dokter untuk solusi atau alternatifnya."]
+    },
+    {
+      "label": "punggung",
+      "questions": [
+        "Saya merasa sakit di punggung.",
+        "saya sakit punggung",
+        "punggung",
+        "saya merasa sakit bagian punggung",
+        "kenapa saya sakit punggung",
+        "apakah sakit punggung itu wajar",
+        "sekarang saya sakit punggung",
+        "punggung saya sakit"
+      ],
+      "answers": ["Rasa sakit di punggung bisa disebabkan oleh berbagai hal. Jika nyerinya berlanjut, sebaiknya konsultasikan dengan dokter untuk mendapatkan penanganan yang tepat."]
+    },
+    {
+      "label": "terjatuh",
+      "questions": ["Bagaimana menghindari terjatuh?", "saya terjatuh", "jatuh", "saya merasa takut terjatuh", "kenapa saya suka terjatuh", "apakah terjatuh wajar", "sekarang saya suka terjatuh", "saya sakit akibat terjatuh"],
+      "answers": ["Selalu gunakan alas kaki yang nyaman dan perhatikan lantai agar tidak licin. Pastikan penerangan cukup, terutama saat malam hari, untuk mengurangi risiko terjatuh."]
+    },
+    {
+      "label": "sakitmata",
+      "questions": [
+        "Bagaimana menghindari sakit mata?",
+        "saya sakit mata",
+        "mata",
+        "saya merasa sakit mata",
+        "kenapa saya suka sakit mata",
+        "apakah sakit mata wajar",
+        "sekarang saya suka sakit mata",
+        "saya sakit mata",
+        "Mata saya sering kabur",
+        "mata saya kabur",
+        "mata saya tidak jelas"
+      ],
+      "answers": ["Pandangan kabur bisa terjadi karena berbagai alasan, seperti usia atau kekurangan vitamin. Periksakan ke dokter mata untuk memastikan penyebabnya."]
+    },
+    {
+      "label": "lupa",
+      "questions": ["saya lupa kegiatan", "saya lupa", "saya suka lupa", "saya dimensia", "saya lupa mau ngapain", "saya pelupa"],
+      "answers": ["Tidak apa-apa. Apakah Anda butuh bantuan untuk mengingat aktivitas Anda? Saya siap membantu."]
+    },
+    {
+      "label": "cuaca",
+      "questions": [
+        "Cuaca hari ini seperti apa?",
+        "sekarang cuaca bagaimana",
+        "bagaimana cuaca sekarang",
+        "apakah sekarang cerah",
+        "apakah sekarang hujan",
+        "bagaimana cuaca saat ini",
+        "cuaca saat ini cerah",
+        "cuaca saat ini mendung",
+        "cuaca saat ini hujan"
+      ],
+      "answers": ["Kondisi cuaca kota Bandung hari ini"]
+    },
+    {
+      "label": "kesepian",
+      "questions": [
+        "Saya merasa ingin berbicara dengan seseorang.",
+        "sekarang saya merasa kesepian",
+        "kesepian",
+        "kondisi sekarang sepi",
+        "saat ini saya kesepian",
+        "hari ini sepi",
+        "saya ingin berbicara karena kesepian",
+        "saya merasa kesepian",
+        "saat ini saya sendiri",
+        "sekarang saya merasa sendiri",
+        "kesendirian",
+        "kondisi sekarang sendiri",
+        "saat ini saya sendirian",
+        "saya ingin berbicara karena saya sendiri",
+        "saat ini saya sendiri"
+      ],
+      "answers": ["Saya di sini untuk menemani Anda. Ceritakan saja apa yang ada di pikiran Anda."]
+    },
+    {
+      "label": "lelah",
+      "questions": ["saya capek sekali hari ini", "sekarang saya capek", "saya lelah sekarang", "saya lelah sekali", "lelah", "capek", "capek sekali", "lelah sekali", "saat ini saya lelah dan capek"],
+      "answers": ["Istirahat yang cukup, ya. Mungkin sebaiknya luangkan waktu untuk duduk santai atau tidur sejenak"]
+    },
+    {
+      "label": "ulang",
+      "questions": [
+        "Bisa diulang lagi",
+        "ulangi perkataan anda lagi",
+        "saya tidak mendengar",
+        "ulangi lagi",
+        "bolehkah untuk mengulangi lagi",
+        "ulang",
+        "tidak dengar",
+        "ulangi sekali lagi",
+        "saat ini saya tidak dengan dan ingin anda ulangi lagi"
+      ],
+      "answers": ["Tentu, saya akan mengulangi informasi yang Anda perlukan. Silakan dengarkan kembali"]
+    },
+    {
+      "label": "tidakenakbadan",
+      "questions": ["Saya merasa tidak enak badan", "saya tidak enak badan", "badan saya tidak enak", "saya tidak enak badan", "sekarang saya tidak enak badan"],
+      "answers": ["Semoga cepat membaik ya. Jika keluhan berlanjut, sebaiknya periksa ke dokter"]
+    },
+    {
+      "label": "senang",
+      "questions": ["Saya merasa senang sekali", "saya senang", "senang sekali", "senang", "hari ini saya senang", "Saya merasa bahagia sekali", "saya bahagia", "bahagia sekali", "bahagia", "hari ini saya bahagia"],
+      "answers": ["Senang mendengarnya, Apa yang membuat hari Anda menyenangkan?"]
+    },
+    {
+      "label": "sedih",
+      "questions": ["Saya merasa sedih sekali", "saya sedih", "senang sedih", "sedih", "hari ini saya sedih", "Saya merasa kecewa sekali", "saya kecewa", "kecewa sekali", "kecewa", "hari ini saya kecewa"],
+      "answers": ["turut prihatin, Apa yang membuat hari Anda sedih?"]
+    },
+    {
+      "label": "keluarga",
+      "questions": [
+        "Bagaimana kabar anak-anak saya",
+        "bagaimana kabar keluarga",
+        "saya ingin berbicara dengan anak saya",
+        "saya ingin telpon anak saya",
+        "saya ingin telpon keluarga",
+        "hubungi anak saya",
+        "hubungi keluarga saya",
+        "saya ingin berbicara dengan anak dan keluarga"
+      ],
+      "answers": ["Semoga mereka dalam keadaan baik. saya akan informasikan kepada mereka"]
+    },
+    {
+      "label": "berita",
+      "questions": ["Bagaimana berita hari ini", "bagaimana berita sekarang", "Lagi ada berita apa ya?", "saya ingin mengetahui berita", "berita apa yang sedang ramai", "berita terkini", "apa berita terkini", "berita"],
+      "answers": ["hari ini terdapat berita", "berita hari ini", "Hari ini ada berita"]
+    }
+  ]
+}
