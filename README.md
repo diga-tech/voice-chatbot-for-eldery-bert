@@ -26,8 +26,11 @@ Interaksi human following robot untuk manusia lanjut usia dengan voice chatbot m
 
 ## Model 
 
+### Data Acquisition
 ![data acquisition](img/distribution.png)
 
+### BERT-MODEL
 ![bert-model](img/bert.png)
 
+### Model Evaluation
 ![evaluation model](img/model.png)
